@@ -1,8 +1,7 @@
-package aaa;
 
-public class auto implements iCriadorRotas {
+public class auto implements ICriadorRotas {
     @Override
-    public String criarRota(){
-        return "Rota criada para automóveis";
+    public String criarRota() {
+        return "Rota criada para automoveis";
     }
 }
